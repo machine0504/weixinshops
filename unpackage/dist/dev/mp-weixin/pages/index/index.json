@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "生如夏花",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "search-swiper": "/pages/index/components/searchSwiper",
+    "header-tab": "/pages/index/components/headertab",
+    "a-scroll": "/pages/index/components/scroll",
+    "img-list": "/pages/index/components/imglist"
+  }
+}

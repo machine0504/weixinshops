@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "发表旅行游记",
+  "usingComponents": {
+    "item-tab": "/pages/strategy/publish/components/item",
+    "upload-img": "/pages/strategy/publish/components/img",
+    "upload-video": "/pages/strategy/publish/components/video"
+  }
+}

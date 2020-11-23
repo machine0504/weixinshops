@@ -1,0 +1,156 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page.data-v-ea077b94 {
+  width: 100%;
+  height: 100%;
+}
+page .content.data-v-ea077b94 {
+  width: 100%;
+  height: auto;
+}
+page .content .header.data-v-ea077b94 {
+  width: 100%;
+  height: 200rpx;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(10%, #ccffff), to(#ffcc00));
+  background: -webkit-linear-gradient(bottom, #ccffff 10%, #ffcc00 100%);
+  background: linear-gradient(to top, #ccffff 10%, #ffcc00 100%);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+page .content .header .search.data-v-ea077b94 {
+  width: 80%;
+  height: 80rpx;
+  background-color: #FFFFFF;
+  border-radius: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+page .content .header .search image.data-v-ea077b94 {
+  width: 10%;
+  height: 50rpx;
+}
+page .content .header .search input.data-v-ea077b94 {
+  width: 80%;
+  height: 60rpx;
+}
+page .content .wrap.data-v-ea077b94 {
+  width: 100%;
+  height: auto;
+}
+page .content .wrap .city.data-v-ea077b94 {
+  margin: 40rpx 0;
+  width: 100%;
+  height: 100rpx;
+  background: rgba(204, 204, 204, 0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+page .content .wrap .city text.data-v-ea077b94 {
+  font-size: 32rpx;
+  margin-left: 20rpx;
+}
+page .content .wrap .city image.data-v-ea077b94 {
+  width: 60rpx;
+  height: 60rpx;
+}
+page .content .wrap .hotcity.data-v-ea077b94 {
+  width: 100%;
+  height: auto;
+}
+page .content .wrap .hotcity text.data-v-ea077b94 {
+  font-size: 40rpx;
+  color: #C0C0C0;
+  margin-left: 20rpx;
+}
+page .content .wrap .hotcity .searchlist.data-v-ea077b94 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin-top: 40rpx;
+}
+page .content .wrap .hotcity .searchlist text.data-v-ea077b94 {
+  font-size: 32rpx;
+  margin-left: 20rpx;
+  margin-bottom: 40rpx;
+  color: #000000;
+}
+page .content .searchlist.data-v-ea077b94 {
+  width: 100%;
+  height: auto;
+}
+page .content .searchlist .item.data-v-ea077b94 {
+  width: 100%;
+  height: 100rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  border-bottom: 1px solid #C0C0C0;
+}
+page .content .searchlist .item .wrap.data-v-ea077b94 {
+  width: 20%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+page .content .searchlist .item .wrap image.data-v-ea077b94 {
+  width: 60rpx;
+  height: 60rpx;
+}
+page .content .searchlist .item text.data-v-ea077b94 {
+  font-size: 34rpx;
+  color: #F0AD4E;
+  width: 80%;
+}
+

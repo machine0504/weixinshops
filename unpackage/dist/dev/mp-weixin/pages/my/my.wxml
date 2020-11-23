@@ -1,0 +1,1 @@
+<view class="content data-v-c8142c08"><view class="data-v-c8142c08">wd</view><view class="{{['loading data-v-c8142c08',(ishow)?'active':'']}}"><image src="../../static/imgs/loading.gif" mode="aspectFit" class="data-v-c8142c08"></image></view></view>

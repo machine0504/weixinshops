@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "攻略",
+  "usingComponents": {
+    "uni-fab": "/components/uni-fab/uni-fab",
+    "header-tab": "/pages/strategy/components/header",
+    "item-tab": "/pages/strategy/components/item",
+    "img-list": "/pages/strategy/components/imglist"
+  }
+}

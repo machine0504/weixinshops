@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/strategy/strategy",
+    "pages/strategy/publish/publish",
+    "pages/index/index",
+    "pages/my/my",
+    "pages/strategy/selectcity/selectcity"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "buddy旅游",
+    "navigationBarBackgroundColor": "#ffd330",
+    "backgroundColor": "#ffd330"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "iconPath": "static/tab/indexs.png",
+        "selectedIconPath": "static/tab/index.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "static/tab/stras.png",
+        "selectedIconPath": "static/tab/stra.png",
+        "pagePath": "pages/strategy/strategy",
+        "text": "攻略"
+      },
+      {
+        "iconPath": "static/tab/my.png",
+        "selectedIconPath": "static/tab/mys.png",
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ],
+    "color": "#333333",
+    "selectedColor": "#76E15",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF"
+  },
+  "usingComponents": {
+    "u-confirm": "/components/confirm/confirm",
+    "load-list": "/components/loading",
+    "no-data": "/components/nodata"
+  }
+}

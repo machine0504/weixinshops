@@ -1,0 +1,70 @@
+
+.mask.data-v-362964e0 {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 900;
+	left: 0px;
+	top: 0px;
+	background: rgba(0, 0, 0, 0.2);
+}
+.confirm-wrap.data-v-362964e0 {
+	width: 80%;
+	max-width: 400px;
+	/* height: 150px; */
+	/* height: 40%;
+  max-height: 150px; */
+	height: auto;
+	background-color: #2e3846;
+	position: absolute;
+	z-index: 1;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	border-radius: 5px;
+}
+.confirm-wrap .message.data-v-362964e0 {
+	text-align: center;
+	font-size: 18px;
+	margin: 30px 15px 0;
+	font-weight: bold;
+	color: #ffffff;
+	word-break: break-all;
+}
+.confirm-wrap .handle.data-v-362964e0 {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	margin-top: 25px;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	margin-bottom: 25px;
+}
+.confirm-wrap .handle .btn.data-v-362964e0 {
+	background-color: #cfd8dc;
+	font-size: 16px;
+	cursor: pointer;
+	color: #ffffff;
+	width: 30%;
+	height: 45px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 45px;
+}
+.confirm-wrap .handle .active.data-v-362964e0 {
+	background-color: #4caf50;
+	font-size: 16px;
+	cursor: pointer;
+	color: #ffffff;
+	width: 30%;
+	height: 45px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 45px;
+}
+

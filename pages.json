@@ -1,0 +1,70 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	{
+	    "path" : "pages/strategy/strategy",
+	    "style" : {
+			"navigationBarTitleText":"攻略"
+		}
+	},
+	{
+	    "path" : "pages/strategy/publish/publish",
+	    "style" : {
+			"navigationBarTitleText":"发表旅行游记"
+		}
+	},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "生如夏花",
+				"navigationBarTextStyle": "black"
+			}
+		}
+        ,{
+            "path" : "pages/my/my",
+            "style" : {
+				"navigationBarTitleText":"个人中心"
+			}
+        }
+        ,{
+            "path" : "pages/strategy/selectcity/selectcity",
+            "style" : {
+				"navigationBarTitleText":"选择城市"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "buddy旅游",
+		"navigationBarBackgroundColor": "#ffd330",
+		"backgroundColor": "#ffd330"
+	},
+	"tabBar":{
+		"list":[
+			{
+				"iconPath":"static/tab/indexs.png",
+				"selectedIconPath":"static/tab/index.png",
+				"pagePath":"pages/index/index",
+				"text":"首页"
+			},{
+				"iconPath":"static/tab/stras.png",
+				"selectedIconPath":"static/tab/stra.png",
+				"pagePath":"pages/strategy/strategy",
+				"text":"攻略"
+			},{
+				"iconPath":"static/tab/my.png",
+				"selectedIconPath":"static/tab/mys.png",
+				"pagePath":"pages/my/my",
+				"text":"我的"
+			}
+		],
+		"color":"#333333",
+		"selectedColor":"#76E15",
+		"borderStyle":"black",
+		"backgroundColor":"#FFFFFF"
+	},
+	"permission":{
+		"scope.userLocation":{
+			"desc":"你的位置信息将用于小程序位置接口的效果展示"
+		}
+	}
+}
